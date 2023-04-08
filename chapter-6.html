@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      table,
+      tr,
+      th,
+      td, h1 {
+        border: 1px solid blue;
+        border-collapse: collapse;
+        border-radius: 3px;
+        text-align: center;
+        padding: 10px 5px 10px 5px;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+      }
+      table {
+        background-color: cornsilk;
+      }
+      h1,tr:hover {
+        background-color: blue;
+        color: white;
+        border: 1px solid red;
+        cursor: pointer;
+        padding: 13px 8px 13px 8px;
+      }
+      h1{
+        background-color: red;
+        font-size: 30px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- table row -->
+      <tr>
+        <!-- table data -->
+        <h1>Class Time Table</h1>
+        <th>English</th>
+        <th>Programming Fundamentals</th>
+        <th>Introduction to logical thinking</th>
+      </tr>
+      <tr>
+        <td>190</td>
+        <td>200</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>130</td>
+        <td>170</td>
+        <td>160</td>
+      </tr>
+      <tr>
+        <td>190</td>
+        <td>200</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>130</td>
+        <td>170</td>
+        <td>160</td>
+      </tr>
+      <tr>
+        <td>190</td>
+        <td>200</td>
+        <td>80</td>
+      </tr>
+      <tr>
+        <td>130</td>
+        <td>170</td>
+        <td>160</td>
+      </tr>
+    </table>
+    <hr />
+    <br />
+    <br />
+    <!-- table assignment for row-span understanding -->
+    <h1>Movie Time Table</h1>
+    <table>
+      <tr>
+        <th>Time(PST)</th>
+        <th>ABC</th>
+        <th>BBC</th>
+        <th>CNN</th>
+      </tr>
+      <tr>
+        <th>6pm-7pm</th>
+        <td rowspan="2">Movie</td>
+        <td>Comedy</td>
+        <td>News</td>
+      </tr>
+      <tr>
+        <th>8pm-9pm</th>
+        <td>Sports</td>
+        <td>Current Affairs</td>
+      </tr>
+    </table>
+    <!-- table assignment complex little bit -->
+    <br /><br />
+    <h1>Student List</h1>
+    <table>
+      <tr>
+        <th rowspan="2">Heading</th>
+        <th>Student</th>
+        <th colspan="3">Details</th>
+      </tr>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Roll no</th>
+      </tr>
+      <tr>
+        <td rowspan="5">Student List</td>
+        <td>1</td>
+        <td>Ahmed</td>
+        <td>Software Engineering</td>
+        <td>043</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Hamza</td>
+        <td>Computer Science</td>
+        <td>059</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Asad</td>
+        <td>Data Science</td>
+        <td>011</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Saqlain</td>
+        <td>Information Technology</td>
+        <td>023</td>
+      </tr>
+    </table>
+
+    <!-- table assignment  for col-span understanding-->
+    <h1>Sales Report</h1>
+    <table>
+      <tr>
+        <th></th>
+        <th>Staturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <th>Tickets Sold</th>
+        <td>120</td>
+        <td>135</td>
+      </tr>
+      <tr>
+        <th>Total Sales</th>
+        <td>$4000</td>
+        <td>$3100</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th></th>
+            <th>9 am</th>
+            <th>10 am</th>
+            <th>11 am</th>
+            <th>12 am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Geography</td>
+            <td>Maths</td>
+            <td>Arts</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3">Gym</td>
+            <td>Home Ecnomics</td>
+        </tr>
+    </table>
+  </body>
+</html>
