@@ -1,0 +1,16 @@
+/* div{
+background-color:blue;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 10px 5px 10px 5px;
+}
+h1{
+    padding: 10px 5px 10px 5px;
+    color: yellow;
+    background-color: black;
+    text-align: center;
+}
+we can also assign css to multiple selectors */
+h1 , h2 , h3{
+    color: blue;
+}
