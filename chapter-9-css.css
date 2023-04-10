@@ -11,6 +11,21 @@ h1{
     text-align: center;
 }
 we can also assign css to multiple selectors */
-h1 , h2 , h3{
+/* h1 , h2 , h3{
     color: blue;
+} */
+/* types of element selector */
+.paragraph-one{
+    background-color: blue;
+}
+.paragraph-two{
+    background-color:red;
+}
+.paragraph-three{
+    background-color: brown;
+}
+/* the another property the css have which is css take last property for same selector element */
+
+.paragraph-one{
+    background-color: cadetblue;
 }
